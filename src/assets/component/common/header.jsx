@@ -1,21 +1,22 @@
+import { Link } from "react-router-dom";
 export default function header() {
   return (
     <div>
       <ul id="uList">
         <li>
-          <a href="/">Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <a href="/login">Login</a>
+          <Link to="/login">Login</Link>
         </li>
         <li>
-          <a href="/Career">Career</a>
+          <Link to="/Career">Career</Link>
         </li>
         <li>
-          <a href="/about">About</a>
+          <Link to="/about">About</Link>
         </li>
         <li>
-          <a href="/shop">Shop</a>
+          <Link to="/shop">Shop</Link>
         </li>
       </ul>
     </div>
