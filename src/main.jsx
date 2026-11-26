@@ -5,7 +5,7 @@ import "./index.css"
 
 let root = document.querySelector("#root");
 createRoot(root).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/shoppingreact">
     <App/>
   </BrowserRouter>
 );
